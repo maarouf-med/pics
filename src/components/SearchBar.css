@@ -1,0 +1,24 @@
+.search-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.search-bar form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-family: monospace;
+}
+.search-bar form input {
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
